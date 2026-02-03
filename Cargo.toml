@@ -65,7 +65,7 @@ winresource = "0.1"
 smol = "1"
 clap = { version = "4", features = ["derive"] }
 indicatif = "0.17"
-glib = "0.17"
+glib = "0.18"
 cairo-rs = { version = "0.17", features = ["png", "svg", "pdf"] }
 librsvg = { git = "https://gitlab.gnome.org/GNOME/librsvg", tag = "2.56.2" }
 # newest poppler feature ("v21_12") is causing linking errors when building in mingw for some reason.
